@@ -1,4 +1,4 @@
 /* TEST SCRIPT */
-select title
+select distinct(title)
 from data_analyst_jobs
-where title like '%Analyst%'
+where title ilike '%Analyst%'

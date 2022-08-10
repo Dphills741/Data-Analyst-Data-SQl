@@ -1,4 +1,3 @@
-/* TEST SCRIPT */
 select title
 from data_analyst_jobs
 where title not like '%Analyst%' And title not like '%Analytics%' 
